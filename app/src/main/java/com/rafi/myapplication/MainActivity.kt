@@ -54,6 +54,10 @@ fun basicComposable(rafi: Modifier = Modifier){
             fontSize = 70.sp,
             fontWeight = FontWeight.Bold
         )
+
+        Text(
+            text = "Jumat, 18 Oktober 2024"
+        )
     }
 }
 
