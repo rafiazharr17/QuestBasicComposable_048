@@ -58,6 +58,12 @@ fun basicComposable(rafi: Modifier = Modifier){
         Text(
             text = "Jumat, 18 Oktober 2024"
         )
+
+        Image(
+            painter = painterResource(id = R.drawable.real),
+            contentDescription = "real madrid",
+            modifier = Modifier.size(250.dp)
+            )
     }
 }
 
