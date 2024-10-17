@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
 fun basicComposable(rafi: Modifier = Modifier){
     Column(
         verticalArrangement = Arrangement.Top,
-
+        modifier = Modifier.fillMaxSize(),
 
     ) {
         Text(
