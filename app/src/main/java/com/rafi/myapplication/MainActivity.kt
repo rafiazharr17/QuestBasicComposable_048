@@ -63,7 +63,17 @@ fun basicComposable(rafi: Modifier = Modifier){
             painter = painterResource(id = R.drawable.real),
             contentDescription = "real madrid",
             modifier = Modifier.size(250.dp)
+        )
+
+        Text(
+            text = "REAL MADRID",
+            modifier = rafi,
+            style = TextStyle(
+                fontSize = 20.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
             )
+        )
     }
 }
 
