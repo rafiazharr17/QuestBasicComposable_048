@@ -47,7 +47,9 @@ fun basicComposable(){
     Column(
 
     ) {
-
+        Text(
+            text = "BIG MATCH"
+        )
     }
 }
 
