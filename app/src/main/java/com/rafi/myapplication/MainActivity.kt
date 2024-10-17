@@ -47,7 +47,7 @@ fun basicComposable(rafi: Modifier = Modifier){
     Column(
         verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize(),
-
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
             text = "BIG MATCH"
