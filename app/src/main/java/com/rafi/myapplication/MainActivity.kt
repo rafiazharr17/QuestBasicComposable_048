@@ -44,7 +44,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun basicComposable(){
+    Column(
 
+    ) {
+
+    }
 }
 
 @Composable
