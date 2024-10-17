@@ -67,11 +67,20 @@ fun basicComposable(rafi: Modifier = Modifier){
 
         Text(
             text = "REAL MADRID",
-            modifier = rafi,
             style = TextStyle(
                 fontSize = 20.sp,
                 color = Color.Blue,
                 fontWeight = FontWeight.Bold
+            )
+        )
+
+        Text(
+            text = "Versus",
+            style = TextStyle(
+                fontSize = 15.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontStyle = FontStyle.Italic
             )
         )
     }
