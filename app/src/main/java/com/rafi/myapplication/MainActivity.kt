@@ -45,6 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun basicComposable(){
     Column(
+        verticalArrangement = Arrangement.Top,
 
     ) {
         Text(
