@@ -76,6 +76,7 @@ fun basicComposable(rafi: Modifier = Modifier){
 
         Text(
             text = "Versus",
+            modifier = Modifier.padding(top = 20.dp, bottom = 20.dp),
             style = TextStyle(
                 fontSize = 15.sp,
                 color = Color.Red,
