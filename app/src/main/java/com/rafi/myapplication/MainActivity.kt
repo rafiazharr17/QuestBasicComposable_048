@@ -83,6 +83,15 @@ fun basicComposable(rafi: Modifier = Modifier){
                 fontStyle = FontStyle.Italic
             )
         )
+
+        Text(
+            text = "BARCELONA",
+            style = TextStyle(
+                fontSize = 20.sp,
+                color = Color.DarkGray,
+                fontWeight = FontWeight.Bold
+            )
+        )
     }
 }
 
