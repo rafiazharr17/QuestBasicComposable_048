@@ -60,7 +60,7 @@ fun basicComposable(rafi: Modifier = Modifier){
         )
 
         Image(
-            painter = painterResource(id = R.drawable.real),
+            painter = painterResource(id = R.drawable.realmadrid),
             contentDescription = "real madrid",
             modifier = Modifier.size(250.dp)
         )
