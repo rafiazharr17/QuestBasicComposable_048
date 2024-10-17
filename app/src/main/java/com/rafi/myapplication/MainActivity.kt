@@ -62,13 +62,13 @@ fun basicComposable(rafi: Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.realmadrid),
             contentDescription = "real madrid",
-            modifier = Modifier.size(250.dp)
+            modifier = Modifier.size(300.dp)
         )
 
         Text(
             text = "REAL MADRID",
             style = TextStyle(
-                fontSize = 20.sp,
+                fontSize = 25.sp,
                 color = Color.Blue,
                 fontWeight = FontWeight.Bold
             )
@@ -78,7 +78,7 @@ fun basicComposable(rafi: Modifier = Modifier){
             text = "Versus",
             modifier = Modifier.padding(top = 20.dp, bottom = 20.dp),
             style = TextStyle(
-                fontSize = 15.sp,
+                fontSize = 20.sp,
                 color = Color.Red,
                 fontWeight = FontWeight.Bold,
                 fontStyle = FontStyle.Italic
@@ -88,7 +88,7 @@ fun basicComposable(rafi: Modifier = Modifier){
         Text(
             text = "BARCELONA",
             style = TextStyle(
-                fontSize = 20.sp,
+                fontSize = 25.sp,
                 color = Color.DarkGray,
                 fontWeight = FontWeight.Bold
             )
@@ -97,7 +97,7 @@ fun basicComposable(rafi: Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.barca),
             contentDescription = "Barcelona",
-            modifier = Modifier.size(250.dp)
+            modifier = Modifier.size(300.dp)
         )
     }
 }
