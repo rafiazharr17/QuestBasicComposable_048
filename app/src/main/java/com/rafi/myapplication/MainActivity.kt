@@ -43,9 +43,10 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun basicComposable(){
+fun basicComposable(rafi: Modifier = Modifier){
     Column(
         verticalArrangement = Arrangement.Top,
+
 
     ) {
         Text(
