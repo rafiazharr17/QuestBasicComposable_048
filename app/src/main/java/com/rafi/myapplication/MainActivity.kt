@@ -92,6 +92,12 @@ fun basicComposable(rafi: Modifier = Modifier){
                 fontWeight = FontWeight.Bold
             )
         )
+
+        Image(
+            painter = painterResource(id = R.drawable.barca),
+            contentDescription = "Barcelona",
+            modifier = Modifier.size(250.dp)
+        )
     }
 }
 
