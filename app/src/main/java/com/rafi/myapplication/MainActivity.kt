@@ -68,17 +68,16 @@ fun basicComposable(rafi: Modifier = Modifier){
         Text(
             text = "Nama",
             style = TextStyle(
-                fontSize = 10.sp,
+                fontSize = 15.sp,
                 color = Color.Blue,
                 fontWeight = FontWeight.Bold
             )
         )
 
         Text(
-            text = "Versus",
-            modifier = Modifier.padding(top = 20.dp, bottom = 20.dp),
+            text = "RAFI ALIF AZHAR",
             style = TextStyle(
-                fontSize = 20.sp,
+                fontSize = 15.sp,
                 color = Color.Red,
                 fontWeight = FontWeight.Bold,
                 fontStyle = FontStyle.Italic
@@ -86,9 +85,9 @@ fun basicComposable(rafi: Modifier = Modifier){
         )
 
         Text(
-            text = "BARCELONA",
+            text = "20220140048",
             style = TextStyle(
-                fontSize = 25.sp,
+                fontSize = 30.sp,
                 color = Color.DarkGray,
                 fontWeight = FontWeight.Bold
             )
