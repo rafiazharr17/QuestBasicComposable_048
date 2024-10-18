@@ -49,8 +49,8 @@ fun basicComposable(rafi: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "BIG MATCH",
-            modifier = rafi,
+            text = "LOGIN",
+            modifier = Modifier.padding(top = 25.dp),
             fontSize = 70.sp,
             fontWeight = FontWeight.Bold
         )
