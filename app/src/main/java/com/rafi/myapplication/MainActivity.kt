@@ -62,7 +62,7 @@ fun basicComposable(rafi: Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.umy),
             contentDescription = "logo umy",
-            modifier = Modifier.size(300.dp)
+            modifier = Modifier.size(300.dp).padding(top = 50.dp)
         )
 
         Text(
